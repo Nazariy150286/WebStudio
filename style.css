@@ -160,8 +160,7 @@
 
   color: #212121;
 }
-
-.member1 {
+.member{
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -173,8 +172,10 @@
   letter-spacing: 0.03em;
 
   color: #212121;
+
 }
-.role1 {
+
+.role{
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -186,85 +187,9 @@
   letter-spacing: 0.03em;
 
   color: #757575;
+
 }
-.member2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
 
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.role2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.member3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.role3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.member4 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.role4 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
 .footer {
   width: 1600px;
   height: 252px;

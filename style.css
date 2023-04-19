@@ -1,81 +1,116 @@
-.logo{
-    color: black;
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: black;
 }
 
 .logo span {
-    color:#2196F3 ;
-} 
+  color: #2196f3;
+}
 
 .header_link {
-list-style-type: none;
-
+  list-style-type: none;
 }
 
 .header_link a {
-text-decoration: none;
-color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
 }
 .header_link a:hover {
-   color: #2196F3;
+  color: #2196f3;
 }
 
 .menu_contact a {
-text-decoration: none;
-color: #757575
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
 }
 
-.menu_contact a:hover{
-    color: #2196F3
+.menu_contact a:hover {
+  color: #2196f3;
 }
 
 .title {
-    color: #FFFFFF
+  color: #ffffff;
+}
+
+.promo h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.promo{
+background-color: #2F303A;
+width: 1600px;
+height: 600px;
 }
 
 .follow_the_link {
-    color: #FFFFFF
-}
-
-.promo{
-background-color:#2F303A ;
-}
-
-button {
-display: flex;
-align-items: center;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
 text-align: center;
 letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+width: 216px;
+height: 50px;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
 }
 
 .list {
-list-style-type : none;
-color: #212121
+  list-style-type: none;
+  color: #212121;
 }
 
-.information{
-    color: #757575
+.information {
+  color: #757575;
 }
 
-.type_of_work{
-    color: #212121;
+.type_of_work {
+  color: #212121;
 }
 
-.team{
-    color: #212121;
+.team {
+  color: #212121;
 }
 
-.name_work{
-    color: #757575;
+.name_work {
+  color: #757575;
 }
 .adress {
- color:  #FFFFFF;
+  color: #ffffff;
 }
 
-.footer-list{
-list-style-type: none;
-text-decoration: none;
+.footer-list {
+  list-style-type: none;
+  text-decoration: none;
 }

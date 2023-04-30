@@ -1,79 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./icons/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./portfolio.css" />
+  </head>
+  <body>
     <header>
-        <h2>WebStudio</h2>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">Студія</a>
+      <div class="container">
+        <div class="header_block">
+          <div class="header_left">
+            <h2 class="logo"><span>Web</span>Studio</h2>
+            <nav>
+              <ul class="menu_links">
+                <li class="header_link">
+                  <a href="./index.html" class="navigation">Студія</a>
                 </li>
-                <li>
-                    <a href="/">Портфоліо</a>
+                <li class="header_link">
+                  <a href="./portfolio.html" class="navigation">Портфоліо</a>
                 </li>
-                <li>
-                    <a href="/">Контакти</a>
+                <li class="header_link">
+                  <a href="/" class="navigation">Контакти</a>
                 </li>
-            </ul>                  
-        </nav>
-         <div>
-                <a href="/">info@devstudio.com</a>
-                <a href="/">+38 096 111 11 11</a>                     
-              </div>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-link">
+            <a href="mailto:" class="inf">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="inf">+38 096 111 11 11</a>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="btn">
-<button>Усі</button>
-<button>Веб-сайти</button>
-<button>Додатки</button>
-<button>Дизайн</button>
-<button>Маркетинг</button>
-</section>
-<section class="cards">
-<ul>
-   <li><img src="./img/Technokryak.svg" alt="Technokryak"></li> 
-   <li>Технокряк</li> 
-   <li>Веб-сайт</li> 
-    <li><img src="./img/NewOrleanandGoldenStar.svg" alt="NewOrleanandGoldenStar"></li>
-   <li>Постер New Orlean vs Golden Star</li>
-   <li>Дизайн</li>
-    <li>Ресторан Seafood</li>
-    <li>Додаток</li>
-    <li><img src="./img/imgPrime.svg" alt="Prime"></li>
-    <li>Проєкт Prime</li>
-    <li>Маркетинг</li>
-    <li><img src="./img/Boxes.svg" alt="Boxes"></li>
-    <li>Inspiration has no Borders</li>
-    <li>Веб-сайт</li>
-    <li><img src="./img/LimitedEdition.svg" alt="LimitedEdition"></li>
-    <li>Видання Limited Edition</li>
-    <li>Дизайн</li>
-    <li><img src="./img/LAB.svg" alt="LAB"></li>
-    <li>Проєкт LAB</li>
-    <li>Маркетинг</li>
-    <li><img src="./img/Growingbusiness.svg" alt="Growingbusiness"></li>
-    <li>Growing Business</li>
-    <li>Додаток</li>
-</ul>
-</section>
+      <section class="btns">
+        <button class="knopochka">Усі</button>
+        <button class="knopochka">Веб-сайти</button>
+        <button class="knopochka">Додатки</button>
+        <button class="knopochka">Дизайн</button>
+        <button class="knopochka">Маркетинг</button>
+      </section>
+      <section class="cards">
+        <ul class="cards">
+         <li class="card"><img src="./img/Technokryak.svg" alt="Технокряк" class="img"> <h4 class="h4">Технокряк</h4><p class="paragraph_text">Веб-сайт</p></li>
+         <li class="card"><img src="./img/NewOrleanandGoldenStar.svg" alt="Постер New Orlean vs Golden Star" class="img"> <h4 class="h4">Постер New Orlean vs Golden Star</h4><p class="paragraph_text">Дизайн</p></li>
+         <li class="card"><img src="./img/SeaFood.svg" alt="Ресторан Seafood" class="img"> <h4 class="h4">Ресторан Seafood</h4><p class="paragraph_text">Додаток</p></li>
+         <li class="card"><img src="./img/imgPrime.svg" alt="Проєкт Prime" class="img"> <h4 class="h4">Проєкт Prime</h4><p>Маркетинг</p></li>
+         <li class="card"><img src="./img/Boxes.svg" alt="Проєкт Boxes" class="img"> <h4 class="h4">Проєкт Boxes</h4><p class="paragraph_text">Додаток</p></li>
+         <li class="card"><img src="./img/InspirationhasnoBorders.svg" alt="Inspiration has no Borders" class="img"> <h4 class="h4">Inspiration has no Borders</h4><p class="paragraph_text">Веб-сайт</p></li>
+         <li class="card"><img src="./img/LimitedEdition.svg" alt="Видання Limited Edition" class="img"> <h4 class="h4">Видання Limited Edition</h4><p class="paragraph_text">Дизайн</p></li>
+         <li class="card"><img src="./img/LAB.svg" alt="Проєкт LAB" class="img"> <h4 class="h4">Проєкт LAB</h4><p class="paragraph_text">Маркетинг</p></li>
+         <li class="card"><img src="./img/Growingbusiness.svg" alt="Growing Business" class="img"> <h4 class="h4">Growing Business</h4><p class="paragraph_text">Додаток</p></li>
+        </ul>
+      </section>
     </main>
-    <footer>
-     <h2>WebStudio</h2>
-      
-<address>
-    <a href="/">м. Київ, пр-т Лесі Українки, 26</a>               
-<a href="mailto:info@example.com">info@example.com</a>          
-<a href="tel:+380961111111">+38 096 111 11 11</a>
-</address>
-        
-        
-    </footer>
-</body>
+    <footer class="footer">
+        <div class="container">       
+        <ul class="footer-list">
+          <li class="loc">
+            <h2 class="logo2"><span>Web</span>Studio</h2>
+          </li>
+          <li class="loc">
+            <a href="#">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li class="loc">
+            <a href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="loc">
+            <a href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+        </div>     
+      </footer>
+  </body>
 </html>

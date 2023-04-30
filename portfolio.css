@@ -1,0 +1,136 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left {
+  display: flex;
+  justify-content: space-between;
+  width: 519px;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.logo span {
+  color: #2196f3;
+}
+
+.menu_links {
+  display: flex;
+  width: 281px;
+  justify-content: space-between;
+}
+.header_link {
+  list-style-type: none;
+  display: flex;
+  width: 281px;
+  text-decoration: none;
+}
+
+.header-link {
+  width: 307px;
+  justify-content: space-between;
+  display: flex;
+}
+.header-link a {
+  text-decoration: none;
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-link a:hover {
+  color: #2196f3;
+}
+.inf {
+  text-decoration: none;
+}
+.header_link a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.header_link a:hover {
+  color: #2196f3;
+}
+
+.footer-list {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer {
+  height: 252px;
+  background-color: #2f303a;
+}
+
+.logo2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.logo2 span {
+  color: #2196f3;
+}
+
+.footer-list a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.cards {
+  list-style-type: none;
+}
+.knopochka {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 125px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+

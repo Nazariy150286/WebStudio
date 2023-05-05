@@ -119,6 +119,7 @@
 }
 .knopochka {
   background: #f5f4fa;
+  border: none;
   border-radius: 4px;
   width: 125px;
   font-family: "Roboto";
@@ -127,10 +128,54 @@
   font-size: 16px;
   line-height: 26px;
   /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
+}
+.knopochka:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+margin:8px;
+}
+
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
 
   color: #212121;
 }
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
 
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.cards{
+display: flex;
+margin: 0 auto;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 1170px;
+margin-top: 50px ;
+margin-bottom: 95px;
+}

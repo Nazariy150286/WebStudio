@@ -115,6 +115,8 @@
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
+  
 }
 
 .list {
@@ -148,10 +150,6 @@
   color: #ffffff;
 }
 
-.work {
-  width: 1170px;
-  margin: 0 auto;
-}
 .footer-list {
   list-style-type: none;
   text-decoration: none;
@@ -169,21 +167,15 @@
 }
 .list {
   display: flex;
-  height: 110px;
   justify-content: space-between;
   margin-bottom: 80px;
   padding: 0;
   margin: auto;
-  flex-direction: row;
   width: 1170px;
 }
 .about {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1140px;
   margin: 94px auto;
+  padding: 90px 0;
 }
 
 .work {
@@ -200,9 +192,9 @@
 }
 .imga {
   display: flex;
-  margin: 0 auto;
   justify-content: space-evenly;
   list-style-type: none;
+  padding: 0;
 }
 .information {
   font-family: "Roboto";
@@ -224,6 +216,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0;
 }
 .team_text {
   font-family: "Roboto";
@@ -274,11 +267,6 @@
   color: #757575;
 }
 
-.footer {
-  height: 252px;
-  background-color: #2f303a;
-}
-
 .logo2 {
   font-family: "Raleway";
   font-style: normal;
@@ -304,4 +292,15 @@
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.img{
+width: 270px;
+}
+.footer{
+padding: 60px 0;
+background-color: #2f303a;
+}
+hr{
+  border: 1px solid #ECECEC;
 }

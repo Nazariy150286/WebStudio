@@ -84,7 +84,6 @@
 }
 
 .footer {
-  height: 252px;
   background-color: #2f303a;
 }
 
@@ -131,19 +130,23 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 6px 22px 6px 22px;
 }
 .knopochka:hover {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
 }
-.buttons{
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 711px;
+  margin: auto;
 }
-button{
-margin:8px;
+button {
+  margin: 8px;
+
 }
 
 h4 {
@@ -152,6 +155,7 @@ h4 {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
+  padding: 20px 24px 6px;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -164,18 +168,35 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  padding: 0 24px;
   /* identical to box height, or 188% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.cards{
-display: flex;
-margin: 0 auto;
-justify-content: space-between;
-flex-wrap: wrap;
-width: 1170px;
-margin-top: 50px ;
-margin-bottom: 95px;
+.cards {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin-bottom: 95px;
+  padding: 35px 0 95px 0;
+}
+.btns{
+padding: 95px 0 0;
+}
+.cards ul{
+padding: 0;
+}
+.card{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+}
+.footer{
+padding: 60px 0;
 }

@@ -35,18 +35,21 @@
   display: flex;
   width: 281px;
   justify-content: space-between;
+  font-size: 14px;
 }
 .header_link {
   list-style-type: none;
   display: flex;
   width: 281px;
   text-decoration: none;
+  font-size: 1em;
 }
 
 .header-link {
   width: 307px;
   justify-content: space-between;
   display: flex;
+
 }
 .header-link a {
   text-decoration: none;
@@ -54,21 +57,22 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  font-size: 14px;
 }
+
 .header-link a:hover {
   color: #2196f3;
 }
 .inf {
   text-decoration: none;
+  font-size: 1em;
 }
 .header_link a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -116,7 +120,6 @@
   margin: 0 auto;
   cursor: pointer;
   border: none;
-  
 }
 
 .list {
@@ -234,9 +237,10 @@
   padding: 94px 0;
   margin: 0;
 }
-.team-card{
+.team-card {
   background-color: white;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .member {
@@ -294,13 +298,13 @@
   color: #ffffff;
 }
 
-.img{
-width: 270px;
+.img {
+  width: 270px;
 }
-.footer{
-padding: 60px 0;
-background-color: #2f303a;
+.footer {
+  padding: 60px 0;
+  background-color: #2f303a;
 }
-hr{
-  border: 1px solid #ECECEC;
+hr {
+  border: 1px solid #ececec;
 }

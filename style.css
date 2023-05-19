@@ -49,7 +49,6 @@
   width: 307px;
   justify-content: space-between;
   display: flex;
-
 }
 .header-link a {
   text-decoration: none;
@@ -65,10 +64,7 @@
 .header-link a:hover {
   color: #2196f3;
 }
-.inf {
-  text-decoration: none;
-  font-size: 1em;
-}
+
 .header_link a {
   font-family: "Roboto";
   font-style: normal;
@@ -99,6 +95,7 @@
 .promo {
   background-color: #2f303a;
   padding: 200px 0 200px 0;
+  background-image:7;
 }
 
 .follow_the_link {
@@ -307,4 +304,7 @@
 }
 hr {
   border: 1px solid #ececec;
+}
+.vector {
+  margin: 0 10px 0 0;
 }

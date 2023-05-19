@@ -40,15 +40,14 @@
 .header_link {
   list-style-type: none;
   display: flex;
-  width: 281px;
   text-decoration: none;
   font-size: 1em;
 }
 
 .header-link {
-  width: 307px;
-  justify-content: space-between;
   display: flex;
+  gap: 30px;
+  align-items: center;
 }
 .header-link a {
   text-decoration: none;
@@ -95,7 +94,6 @@
 .promo {
   background-color: #2f303a;
   padding: 200px 0 200px 0;
-  background-image:7;
 }
 
 .follow_the_link {

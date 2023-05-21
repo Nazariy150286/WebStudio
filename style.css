@@ -193,6 +193,7 @@
 .type-of-work {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 .imga {
   display: flex;
@@ -222,6 +223,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  padding-bottom: 94px;
 }
 .team_text {
   font-family: "Roboto";
@@ -231,13 +233,14 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .team {
   background-color: #f5f4fa;
-  padding: 94px 0;
-  margin: 0;
+  margin-top: 94px;
+  
 }
 .team-card {
   background-color: white;

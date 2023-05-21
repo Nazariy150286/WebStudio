@@ -44,9 +44,9 @@
 }
 
 .header-link {
-  width: 307px;
-  justify-content: space-between;
   display: flex;
+  gap: 30px;
+  align-items: center;
 }
 .header-link a {
   text-decoration: none;
@@ -116,7 +116,7 @@
 .cards {
   list-style-type: none;
 }
-.knopochka {
+.button {
   background: #f5f4fa;
   border: none;
   border-radius: 4px;
@@ -132,7 +132,7 @@
   color: #212121;
   padding: 6px 22px 6px 22px;
 }
-.knopochka:hover {
+.button:hover {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
@@ -185,7 +185,7 @@ p {
   padding: 35px 0 95px 0;
 }
 .btns{
-padding: 95px 0 0;
+padding-top: 94px;
 }
 .cards ul{
 padding: 0;
@@ -195,8 +195,18 @@ padding: 0;
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
   width: 370px;
-  height: 404px;
+  margin-bottom: 30px;
+}
+.card:hover{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .footer{
 padding: 60px 0;
+}
+hr {
+  border: 1px solid #ececec;
+}
+
+.vector {
+  margin: 0 10px 0 0;
 }

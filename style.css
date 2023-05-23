@@ -123,6 +123,10 @@
   border: none;
 }
 
+.img{
+width: 270px;
+}
+
 .list {
   list-style-type: none;
   color: #212121;
@@ -186,16 +190,18 @@
   width: 1170px;
   margin: 0 auto;
 }
-.img2 {
+/* .img2 {
+  width: 100%;
+  object-fit: cover;
   border-style: none;
-}
+} */
 
 .type-of-work {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
 }
-.imga {
+.images {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -240,12 +246,18 @@
 .team {
   background-color: #f5f4fa;
   margin-top: 94px;
-  
 }
 .team-card {
   background-color: white;
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-card:hover{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    
 }
 
 .member {
@@ -291,21 +303,33 @@
   color: #2196f3;
 }
 
-.footer-list a {
-  font-family: "Roboto";
+.loc a{
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-  text-decoration: none;
+  
   letter-spacing: 0.03em;
-  color: #ffffff;
+  
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.loc2 a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  letter-spacing: 0.03em;
+  
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
-.img {
-  width: 270px;
-}
 .footer {
   padding: 60px 0;
   background-color: #2f303a;
@@ -316,3 +340,17 @@ hr {
 .vector {
   margin: 0 10px 0 0;
 }
+.images img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.block {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.follow_the_link:hover{
+  transform: scale(1.12);
+}
+

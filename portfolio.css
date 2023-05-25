@@ -146,11 +146,12 @@
 }
 button:hover{
   transform: scale(1.14);
-  transition-timing-function: ease-in-out;
 }
 
 button {
   margin: 8px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.35s;
 }
 
 h4 {
@@ -199,12 +200,12 @@ p {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
 }
 .card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    transform: scale(1.05);
-    transition-timing-function: ease-in-out;
+    transform: translate3d(2px,5px,-2px);
 }
 .footer {
   padding: 60px 0;

@@ -190,7 +190,7 @@
 .work {
   width: 1170px;
   margin: 0 auto;
-  animation: FadeInUp 2s;
+  animation: FadeInUp 1s;
 }
 /* .img2 {
   width: 100%;
@@ -256,12 +256,11 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
-  animation: zoomInUp 2s;
 }
 .team-card:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  transform: 3d (5px, 15px, 10px);
+  transform:  translate3d(5px, 15px, 10px);
 }
 
 .member {

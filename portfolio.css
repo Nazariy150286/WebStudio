@@ -16,6 +16,7 @@
   align-items: center;
 }
 
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -187,6 +188,7 @@ p {
   width: 1170px;
   margin-bottom: 95px;
   padding: 35px 0 0px 0;
+  
 }
 .btns {
   padding-top: 94px;
